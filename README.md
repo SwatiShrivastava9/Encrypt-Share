@@ -1,7 +1,7 @@
 # Encrypt-Share
 
 ## Abstract
-This project develops a secure cloud storage application compatible with popular platforms like Dropbox, Box, Google Drive, and Office365. It encrypts uploaded files, allowing decryption only for members of a designated "Secure Cloud Storage Group." Implemented using Python, open-source cryptographic libraries, and Google Drive API, it features user authentication, user management, Google Drive API integration, menu generation, encryption/decryption, and a graphical user interface (GUI). Future enhancements may focus on hybrid key management and improved GUI security.
+This project develops a secure cloud storage application compatible with popular platforms like Dropbox, Box, Google Drive, and Office 365. It encrypts uploaded files, allowing decryption only for members of a designated "Secure Cloud Storage Group." Implemented using Python, open-source cryptographic libraries, and Google Drive API, it features user authentication, user management, Google Drive API integration, menu generation, encryption/decryption, and a graphical user interface (GUI). Future enhancements may focus on hybrid key management and improved GUI security.
 
 ## Workflow
 The project involves developing a private cloud space for securely uploading and downloading files. Users can be added or removed from this space, and files are encrypted before being uploaded to the cloud. Authentication is required to access the private space, and authorization (key) is needed to download files.
@@ -24,3 +24,7 @@ Google Drive authentication follows the guidelines provided in the Google Drive 
 
 ### Graphical User Interface (GUI)
 The application uses the Eel library for integrating Python backend functions with HTML, CSS, and JavaScript frontend components, providing an intuitive user interface.
+
+## How To run this project
+To run this program you need to first create a Google Drive API credential named `client_secret.json` and save it in the `src` directory.
+Then run `main.exe` or go to 'main.py' and run it.
